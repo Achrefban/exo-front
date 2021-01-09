@@ -1,0 +1,70 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-size: 30px; 
+  }
+
+  .searchbar {
+      width: 100%;
+      margin: 5px;
+  }
+  
+  /* Control the left side */
+  .left {
+    
+    height: 100%;
+    background-color: rgb(211, 235, 222);
+  }
+  
+  /* Control the right side */
+  .right {
+    
+    height: 100%;
+    background-color: rgb(211, 235, 222);
+  }
+  .p{
+      margin-left: 8px;
+  }
+  .topdiv {
+    margin: 5px;
+    background-color: rgb(211, 235, 222);
+    font-size: 30px;
+    
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .ville {
+      background-color: black;
+      color: aliceblue;
+      margin-top: 3px;
+  }
+
+  .V {
+    background-color: green;
+    text-align: center;
+    color: white;
+  }
+
+  .F {
+      background-color: red;
+      text-align: center;
+      color: white ;
+  }
